@@ -23,6 +23,7 @@ public class EmployeeStatusAction {
 	@Autowired
 	private EmployeeStatusService employeeStatusService;
 
+	//注释test
 	@RequestMapping("/getEmployeeStatus")
 	@ResponseBody
 	public JSONArray getEmployeeStatus(HttpSession session) {
